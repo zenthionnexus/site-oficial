@@ -10,31 +10,27 @@ $(function () {
     });
 
 
-    // Featured Owl Carousel
-    $('.featured-projects-slider .owl-carousel').owlCarousel({
-        center: true,
-        loop: true,
-        margin: 30,
-        nav: false,
-        dots: false,
-        autoplay: true,
-        autoplayTimeout: 5000,
-        autoplayHoverPause: false,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 2
-            },
-            1000: {
-                items: 3
-            },
-            1200: {
-                items: 4
-            }
+    // Portfolio filter
+    $('.filter-buttons .btn').on('click', function () {
+        $('.filter-buttons .btn').removeClass('btn-primary').addClass('btn-outline-primary');
+        $(this).removeClass('btn-outline-primary').addClass('btn-primary');
+
+        var filter = $(this).data('filter');
+        if (filter === 'all') {
+            $('.portfolio-item').show(400);
+        } else {
+            $('.portfolio-item').not('[data-category="' + filter + '"]').hide(200);
+            $('.portfolio-item[data-category="' + filter + '"]').show(400);
         }
-    })
+    });
+
+    // Magnific Popup
+    $('.image-popup').magnificPopup({
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
 
 
     // Count
