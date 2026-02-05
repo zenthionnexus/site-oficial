@@ -1,7 +1,7 @@
 const portfolioData = {
     "clinicas": {
-        title: "Presença Digital",
-        description: "Estratégias de mídia social para aumentar o engajamento e o alcance da marca.",
+        title: "Marketing para Clínicas",
+        description: "Conteúdos estratégicos para atrair pacientes e fortalecer a presença digital de clínicas e consultórios.",
         images: [
             "../assets/images/portfolio/clinicas/4.jpeg",
             "../assets/images/portfolio/clinicas/2.jpeg",
@@ -11,8 +11,8 @@ const portfolioData = {
         ]
     },
     "docerias": {
-        title: "Criação de Posts",
-        description: "Designs de posts criativos e informativos para redes sociais.",
+        title: "Design para Docerias",
+        description: "Posts criativos e apetitosos para valorizar produtos e aumentar o engajamento nas redes sociais.",
         images: [
             "../assets/images/portfolio/docerias/1.jpeg",
             "../assets/images/portfolio/docerias/2.jpeg",
@@ -20,8 +20,8 @@ const portfolioData = {
         ]
     },
     "identidade-de-perfil": {
-        title: "Links Personalizados",
-        description: "Criação de páginas de links personalizadas para agrupar todos os links importantes de uma marca.",
+        title: "Identidade de Perfil",
+        description: "Construção de uma identidade visual forte e coerente para perfis de marca pessoal ou profissional.",
         images: [
             "../assets/images/portfolio/identidade-de-perfil/1.jpeg",
             "../assets/images/portfolio/identidade-de-perfil/2.jpeg",
@@ -30,8 +30,8 @@ const portfolioData = {
         ]
     },
     "linkthree": {
-        title: "Identidade de Perfil",
-        description: "Desenvolvimento de uma identidade visual forte para perfis de marca pessoal.",
+        title: "Páginas de Links Personalizadas",
+        description: "Criação de páginas modernas para centralizar os principais links da sua marca ou negócio.",
         images: [
             "../assets/images/portfolio/linkthree/1.jpeg",
             "../assets/images/portfolio/linkthree/3.jpeg",
@@ -39,8 +39,8 @@ const portfolioData = {
         ]
     },
     "lojas": {
-        title: "Identidade de Perfil",
-        description: "Desenvolvimento de uma identidade visual forte para perfis de marca pessoal.",
+        title: "Lojas",
+        description: "Conteúdos visuais pensados para destacar produtos e impulsionar vendas no digital.",
         images: [
             "../assets/images/portfolio/lojas/1.jpeg",
             "../assets/images/portfolio/lojas/2.jpeg",
@@ -55,8 +55,8 @@ const portfolioData = {
         ]
     },
     "mercados": {
-        title: "Identidade de Perfil",
-        description: "Desenvolvimento de uma identidade visual forte para perfis de marca pessoal.",
+        title: "Design para Mercados",
+        description: "Artes promocionais para divulgar ofertas e fortalecer a comunicação visual de supermercados.",
         images: [
             "../assets/images/portfolio/mercado/3.jpeg",
             "../assets/images/portfolio/mercado/4.jpeg",
