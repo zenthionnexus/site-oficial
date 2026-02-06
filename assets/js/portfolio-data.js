@@ -44,8 +44,6 @@ const portfolioData = {
         images: [
             "../assets/images/portfolio/lojas/1.jpeg",
             "../assets/images/portfolio/lojas/2.jpeg",
-            "../assets/images/portfolio/lojas/3.jpeg",
-            "../assets/images/portfolio/lojas/3.jpeg",
             "../assets/images/portfolio/lojas/4.jpeg",
             "../assets/images/portfolio/lojas/5.jpeg",
             "../assets/images/portfolio/lojas/6.jpeg",
